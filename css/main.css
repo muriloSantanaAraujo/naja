@@ -102,6 +102,7 @@ section{
 }
 .navbar-brand img{
     height: 30px;
+    width: 90px;
 }
 .navbar-brand span{
     color: var(--mount-meadow);
