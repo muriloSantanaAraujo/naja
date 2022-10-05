@@ -1,166 +1,474 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naja</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "resources/normalize.css">
+    <!-- font -->
+    <link rel = "stylesheet" href = "resources/font.css">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/8cae67e188.js" crossorigin="anonymous"></script>
+    <!-- magnific popup -->
+    <link rel = "stylesheet" href = "resources/Magnific-Popup-master/dist/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <!-- animate css -->
+    <link rel = "stylesheet" href = "resources/animate.css-main/animate.css">
+    <!-- custom (main) css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/naja-logo.png" type="image/x-icon">
+  </head>
+  <body>
+    
+    <!-- header -->
+    
+    <header class = "header" id = "intro">
+      <nav class = "navbar">
+        <div class = "container">
+          <div class = "brand-and-toggler">
+            <a href = "index.html" class = "navbar-brand">
+              <img src="assets/logo.png" alt="">
+            </a>
+            <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
+              <i class = "fas fa-bars"></i>
+            </button>
+          </div>
 
-<body>
-
-    <div class="nav-container">
-        <nav>
-            <ul class="mobile-nav">
-                <li>
-                    <div class="menu-icon-container">
-                        <div class="menu-icon">
-                            <span class="line-1"></span>
-                            <span class="line-2"></span>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <a href="#" class="link-logo"><img class="link-logo-1" src="images/naja-logo.png" alt=""></a>
-                </li>
-
-                <li>
-                    <a href="" class="link-bag"></a>
-                </li>
+          <div class = "navbar-collapse">
+            <ul class = "navbar-nav">
+              <li class = "nav-item">
+                <a href = "#intro" class = "nav-link">Certificado Digital</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#feature" class = "nav-link">Empires Food</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#team" class = "nav-link">Backup em Nuvem</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#pricing" class = "nav-link">Seja representante</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#testimonial" class = "nav-link">Sobre nós</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#contact" class = "nav-link">Suporte</a>
+              </li>
             </ul>
+          </div>
+        </div>
+      </nav>
 
-            <ul class="desktop-nav">
-                <li>
-                    <a href="#" class="link-logo"><img class="link-logo-2" src="images/naja-logo.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#">Empires ERP</a>
-                </li>
-                <li>
-                    <a href="#">Backup em Nuvem</a>
-                </li>
-                <li>
-                    <a href="#">Certificado Digital</a>
-                </li>
-                <li>
-                    <a href="#">Cardapio Online</a>
-                </li>
-                <li>
-                    <a href="#">Seja representante</a>
-                </li>
-                <li>
-                    <a href="#">Suporte</a>
-                </li>
-                <li>
-                    <a href="#" class="link-search"></a>
-                </li>
-                <li>
-                    <a href="#" class="link-bag"></a>
-                </li>
+      <div class = "hero-div center container">
+        <h1>Automação, Integração e Inteligência.</h1>
+        <p class = "animate__animated animate__fadeInUp animate__slow">Empires ERP</p>
+
+        <div class = "hero-btns animate__animated animate__fadeInUp animate__slow">
+          <button type = "button" class = "btn-trans">Saiba mais</button>
+          <button type = "button" class = "btn-white">Contrate agora</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- detail section -->
+    <section class = "detail">
+      <div class = "container">
+        <div class = "row">
+          <div class = "detail-item wow animate__animated animate__fadeInLeft animate__slow">
+            <span><i class="fa-solid fa-scroll"></i></span>
+            <h2>Emissão de nota fiscal pode ser simples</h2>
+            <div class = "line"></div>
+            <p class = "text">Com o Empires, você tem mais rapidez para emitir os três principais tipos de notas fiscais (NFe, NFSe e NFCe), não precisa informar os dados mais do que uma vez, os impostos são calculados automaticamente e muito mais!</p>
+          </div>
+
+          <div class = "detail-item wow animate__animated animate__fadeInUp animate__s">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+            <h2>Integração com plataformas de e-commerce e marketplaces de forma fácil e rápida</h2>
+            <div class = "line"></div>
+            <p class = "text">Aqui, você pode fazer a integração com centenas de plataformas de e-commerce e marketplaces, gerenciando a sua loja virtual com organização e facilidade.</p>
+          </div>
+
+          <div class = "detail-item wow animate__animated animate__fadeInRight animate__slow">
+            <span><i class="fa-solid fa-box"></i></span>
+            <h2>Gestão de estoque como você nunca viu</h2>
+            <div class = "line"></div>
+            <p class = "text">O Empires facilita o cadastro de seus fornecedores, a emissão dos relatórios de estoque, o controle das suas compras, o gerenciamento de múltiplos depósito e muito, muito mais!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of detial section -->
+    
+    <!-- features section -->
+    <section class = "feature" id = "feature">
+      <div class = "container">
+        <div class = "row">
+          <div class = "feature-left wow animate__animated animate__fadeInUp animate__slow">
+            <img src = "assets/features-mockup.png" alt = "">
+          </div>
+          <div class = "feature-right wow animate__animated animate__fadeInUp animate__slow">
+            <div class = "title">
+              <h2>Aproveite o poder do sistema ERP com o Empires</h2>
+              <p class = "text">Tudo que sua empresa precisa para automação e padronização da gestão administrativa.</p>
+            </div>
+
+            <div class = "feature-item">
+              <span><i class="fa-brands fa-uncharted"></i></i></span>
+              <div>
+                <h3>Gestão financeira, completo e prático.</h3>
+                <p class = "text">Controle de apenas um aplicativo para todas as contas a pagar e a receber da sua empresa. Saiba a qualquer momento como anda o resultado financeiro do seu negócio e dispense planilhas e controles paralelos.</p>
+              </div>
+            </div>
+
+            <div class = "feature-item">
+              <span><i class="fa-solid fa-money-bill-trend-up"></i></span>
+              <div>
+                <h3>Vendas sem fila e sem complicação.</h3>
+                <p class = "text">Garanta mais agilidade e praticidade nas operações de: vendas, caixa, orçamento e pré-vendas. Acompanhe o desempenho da empresa através de gráficos e relatórios com as informações de que necessita para tomar as decisões certas e vender mais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of features section -->
+
+    <!-- sample video section -->
+    <section class = "video">
+      <div class = "container">
+        <a class = "center popup-youtube" href = "">
+          <i class = "fas fa-play"></i>
+        </a>
+        <h2 class = "wow animate__animated animate__fadeInUp animate__slow">Assista uma demonstração</h2>
+        <p class = "wow animate__animated animate__fadeInUp animate__slow">Empires ERP. Sua empresa acima da média.</p>
+      </div>
+    </section>
+    <!-- end of sample video section -->
+
+    <!-- team section -->
+    <section class = "team" id = "team">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Visão geral</h2>
+          <p class = "text">Conheça as principais funcionalidades</p>
+        </div>
+
+        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-1.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Vendas</h3>
+              <span>Vendas</span>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-2.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Compras</h3>
+              <span>Compras</span>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-3.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Fiscal</h3>
+              <span>Fiscal</span>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-4.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Financeiro</h3>
+              <span>Financeiro</span>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-5.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Estoque</h3>
+              <span>Estoque</span>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-6.jpg" alt = "">
+              <div class = "">
+
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Cadastro</h3>
+              <span>Cadastro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of team section -->
+    
+    <!-- faq section -->
+    <section class = "faq">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Perguntas frequentes</h2>
+          <p class = "text">Nesta seção são divulgadas as perguntas frequentes sobre as atividades desempenhadas pela Naja Software.</p>
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>O que é ERP?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">O Sistema Integrado de Gestão Empresarial (ERP) é um software de gerenciamento de processos que permite controlar todas as informações de uma empresa, integrando dados, recursos e processos das áreas de Vendas, Finanças, Contabilidade, Fiscal, Estoque, Compras, Produção e Logística.</p>
+              <p class="text">O ERP funciona como um banco de dados centralizado para vários processos de negócios para reduzir o trabalho manual e simplificar os fluxos de trabalho de negócios existentes. Os sistemas ERP contêm interfaces nos quais os usuários podem analisar dados em tempo real coletados de toda a empresa para medir a produtividade e a lucratividade.</p> 
+            </div>
+          </div>
+
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>Quais são as opções disponíveis para a contratação do sistema?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">Há várias alternativas, mas o mais comum é ter um plano básico, que contempla um pacote de módulos essenciais para a gestão da sua empresa, e outros complementares, que são adquiridos conforme as demandas organizacionais.</p>
+              <p class = "text">Você também tem a chance de incluir essas funcionalidades depois da contratação, quando surgir a necessidade.</p>
+            </div>
+          </div>
+
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>Como saber se a empresa precisa de um sistema ERP?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">Cada negócio tem um perfil e diferentes desafios. Contudo, alguns sinais ajudam o gestor a identificar se a sua empresa passa por dificuldades. Essas indicações sinalizam a hora de buscar soluções mais efetivas para a organização.</p>
+              <p class = "text">Conheça os fatores que mostram que a companhia precisa de um sistema inteligente para melhorar os processos:</p>
+              <p class="text">• A equipe gasta muito tempo em tarefas que poderiam ser automatizadas;</p>
+              <p class="text">• O gestor não tem acesso aos dados e precisa ser informado pelos demais colaboradores sobre decisões importantes para o negócio;</p>
+              <p class="text">• A empresa atua com vários fornecedores, de diferentes regiões do País ou do mundo;</p>
+              <p class="text">• A companhia tem diversos softwares que foram implantados ao longo dos anos, mas eles não estão conectados uns aos outros;</p>
+              <p class="text">• A equipe não identifica quais são os níveis exatos de estoque disponível;</p>
+              <p class="text">• O gestor perde muito tempo buscando informações sobre a empresa e tentando encontrar soluções para aumentar a produtividade e a eficiência;</p>
+              <p class="text">• Os colaboradores não conseguem compartilhar as informações com facilidade, situação que deixa a companhia suscetível a erros;</p>
+              <p class="text">• O gestor tem dificuldade para cumprir as normas vigentes e já recebeu multa por falha em compliance;</p>
+              <p class="text">• Os problemas demoram para serem identificados e a equipe não consegue ser proativa para resolver situações simples.</p>
+              <p class="text">Se você perceber que algumas dessas situações ocorrem na sua empresa, é o momento de investir em um sistema ERP. Por isso, vale a pena entender como funciona a sua adoção.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of faq section -->
+
+    <!-- pricing section -->
+    <section class = "pricing" id = "pricing">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Nossos planos</h2>
+          <p class = "text">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "pricing-item">
+            <h2>Business Version</h2>
+            <div class = "price">
+              <span>R$ 120</span>
+              <span class = "text">Monthly</span>
+            </div>
+            <ul>
+              <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li>
             </ul>
-        </nav>
+          </div>
 
-        <!-- End of navigation menu items -->
-
-        <div class="search-container hide">
-            <div class="link-search"></div>
-            <div class="search-bar">
-                <form action="">
-                    <input type="text" placeholder="Buscar em najasoftware.com.br">
-                </form>
+          <div class = "pricing-item">
+            <h2>Professional Version</h2>
+            <div class = "price">
+              <span>R$ 120</span>
+              <span class = "text">Monthly</span>
             </div>
-            <div class="link-close"></div>
+            <ul>
+              <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li>
+            </ul>
+          </div>
 
-            <div class="quick-links">
-                <h2>Links rápidos</h2>
-                <ul>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                    <li>
-                        <a href="#">Nossa equipe</a>
-                    </li>
-                    <li>
-                        <a href="#">Noticías Naja</a>
-                    </li>
-                    <li>
-                        <a href="#">Localização</a>
-                    </li>
-                    <li>
-                        <a href="#">Trabalhe conosco</a>
-                    </li>
-                </ul>
+          <div class = "pricing-item">
+            <h2>Standard Version</h2>
+            <div class = "price">
+              <span>R$ 120</span>
+              <span class = "text">Monthly</span>
             </div>
+            <ul>
+              <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- testimonial section -->
+    <section class = "testimonial" id = "testimonial">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Depoimentos</h2>
+          <p class = "text">Levamos a sério o nosso compromisso com os clientes! Veja os depoimentos de quem já é cliente e utiliza todos os nossos serviços.</p>
         </div>
 
-
-        <div class="mobile-search-container">
-            <div class="link-search"></div>
-            <div class="search-bar">
-                <form action="">
-                    <input type="text" placeholder="Buscar em najasoftware.com.br">
-                </form>
+        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/test-1a.jpg" alt = "">
             </div>
-            <span class="cancel-btn">Cancelar</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde sint veritatis placeat beatae maiores odio?</p>
+            <span>Someone's Name</span>
+          </div>
 
-            <div class="quick-links">
-                <h2>Links rápidos</h2>
-                <ul>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                    <li>
-                        <a href="#">Nossa equipe</a>
-                    </li>
-                    <li>
-                        <a href="#">Noticías Naja</a>
-                    </li>
-                    <li>
-                        <a href="#">Localização</a>
-                    </li>
-                    <li>
-                        <a href="#">Trabalhe conosco</a>
-                    </li>
-                </ul>
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/test-2.jpg" alt = "">
             </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde sint veritatis placeat beatae maiores odio?</p>
+            <span>Someone's Name</span>
+          </div>
+
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/test-3.jpg" alt = "">
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde sint veritatis placeat beatae maiores odio?</p>
+            <span>Someone's Name</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonial section -->
+
+    <!-- contact section -->
+    <section class = "contact" id = "contact">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Fale conosco</h2>
+          <p class = "text">A Naja Software tem o objetivo de estar sempre próxima de seus clientes. Para isso, disponibiliza vários canais de comunicação, sempre procurando o máximo de agilidade nos contatos. Você pode enviar um pedido de visita para demonstração das soluções, currículos e mensagens para o departamento comercial.</p>
         </div>
 
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "contact-left">
+            <h2>Enviar mensagem</h2>
+            <form>
+              <input type = "text" class = "form-control" placeholder="Nome completo">
+              <input type = "email" class = "form-control" placeholder="Endereço de e-mail">
+              <textarea placeholder="Message" rows = "6"></textarea>
+              <button type = "submit" class = "submit-btn">Enviar</button>
+            </form>
+          </div>
 
-    </div>
-
-    <section class="section1">
-        <div class="card1">
-
+          <div class = "contact-right">
+            <div>
+              <h2>Atendimentos</h2>
+              <p class = "text">Segunda-Feira a Sexta-Feira</p>
+              <p class="text">07:30 – 11:00 e 13:00 – 17:30</p>
+            </div>
+            <div>
+              <h2>Contatos</h2>
+              <p class = "text">0800 601 6814 | 3423-6814</p>
+            </div>
+            <div>
+              <h2>Email</h2>
+              <p class = "text">naja@najasoftware.com.br</p>
+            </div>
+          </div>
         </div>
-  </section>
-
-    <section class="section2">
-
+      </div>
     </section>
+    <!-- end of contact section -->
 
-    <section class="section3">
-
-    </section>
-
-    <section class="section4">
-
-    </section>
-
-
-    <footer>
-
+    <!-- footer -->
+    <footer class = "footer center">
+      <div class = "container">
+        <p class = "text">Copyright &copy; Naja Software | Todos os direitos reservados</p>
+        <div class = "footer-links">
+          <a href = "#" class = "center">
+            <i class = "fab fa-facebook-f"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-instagram"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-linkedin"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-twitter"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
     </footer>
+    <!-- end of footer -->
 
-    <div class="overlay"></div>
 
-    <script src="main.js"></script>
 
-</body>
 
+
+
+    <!-- jQuery -->
+    <script src = "resources/jquery-3.5.1.js"></script>
+    <!-- magnific popup -->
+    <script src = "resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- owl carousel -->
+    <script src = "resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- wow js -->
+    <script src = "resources/WOW-master/dist/wow.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js" ></script>
+  </body>
 </html>
