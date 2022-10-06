@@ -1,14 +1,7 @@
-
-
 $(document).ready(function(){
 
     // wow initiation
     new WOW().init();
-
-    // navigation bar toggle
-    $('#navbar-toggler').click(function(){
-        $('.navbar-collapse').slideToggle(400);
-    });
 
     // navbar bg change on scroll
     $(window).scroll(function(){
