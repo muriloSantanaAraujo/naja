@@ -157,7 +157,7 @@ section{
 .btn-trans{
     color: #fff;
     transition: var(--transition);
-    display: none;
+    gap: 10px;
 }
 .btn-trans:hover{
     background: var(--mount-meadow);
