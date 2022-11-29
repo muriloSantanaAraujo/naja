@@ -69,5 +69,23 @@ $(document).ready(function(){
         nav: false,
         items: 1
     });
+    
+    $(document).ready(function(){
+        $('#fone').mask('(00) 0000-0000');
+    });
 
 });
+
+
+
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+
+
+

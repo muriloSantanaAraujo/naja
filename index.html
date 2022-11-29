@@ -70,7 +70,27 @@
         <p class = "animate__animated animate__fadeInUp animate__slow">Sua gestão agora é com a <br>Naja Software</p>
 
         <div class = "hero-btns animate__animated animate__fadeInUp animate__slow">
-          <button type = "button" class = "btn-white">Solicite uma demonstração</button>
+          <button type = "button" class = "btn-white"  onclick="openForm()">Solicite uma demonstração</button>
+          <!-- Formulario de solicidação-->
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <h3 class = "animate__animated animate__fadeInUp animate__slow">Contato para demonstração</h3>
+             
+              <label for="nome"><b>Nome</b></label>
+              <input type="text" placeholder="Nome" name="nome" required>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Seu Melhor E- mail" name="email" required>
+
+              <label for="fone"><b>Telefone</b></label>
+              <input type="text" placeholder="telefone" name="fone" required>
+          
+              <button type="submit" class="btn">Solicite uma demonstração</button>
+              <button type="button" class="btn cancel" onclick="closeForm()" id="btnCancel">&times;</button>
+            </form>
+          </div>
+          <!-- Formulario de solici-->
+  
         </div>
       </div>
     </header>

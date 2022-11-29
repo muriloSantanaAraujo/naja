@@ -1019,6 +1019,111 @@ nav .desktop-nav li a:hover {
     display: none;
 }
 
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+ 
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    bottom: 0;
+    right: 15px;
+    border: 3px #c7c7c7;
+    position: relative; 
+    justify-self: center;
+    position: absolute; 
+    border-radius: 2%;
+    margin: -125px auto;
+    z-index: 9;
+    transition: all 2s ease-in-out;
+    
+}
+    
+    /* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 5% 5%;
+    border-radius: 2%;
+    background-color: rgb(238, 236, 236);
+    position:  relative;
+    transition: all 2s ease-in-out;
+    color: rgb(43, 43, 43);
+    
+}
+    
+    /* Full-width input fields */
+.form-container input[type=text], .form-container  input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius: 1em;
+    background: #f5c7c7;
+}
+    
+    /* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container  input[type=email]:focus,  .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+    
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D; 
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .btn {
+    background-color: #04AA6D; 
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    position: absolute;
+    top: -5%;
+    right: -12%;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    justify-content: center;
+}
+
+.form-container  .cancel:hover {
+    color: green;
+}
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover .close:hover {
+    opacity: 1;
+}
+
 
 /* Media Queries */
 
@@ -1280,7 +1385,12 @@ nav .desktop-nav li a:hover {
     .nav-container nav {
         transition: all 400ms ease;
     }
+
 }
+
+
+    
+
 
 
 
